@@ -5,7 +5,7 @@
 5. Change aspects of the code files to better fit this project. 
 6. Change background color by changing html RG
 7. Change CD in command prompt to proper location 
-8. Every response currently returns "Specified brewery not present" - FIXED
+8. Every response currently returns "Specified brewery not present" 
 9. Create powerpoint for project. 
 10. render template change to match home page on greet page 
 11. Fix error happening in test runs, where /greet app route has no template.
