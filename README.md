@@ -1,2 +1,2 @@
-# Brewery Database
-Web page that allows user to search for breweries in the Atlanta area. It will give the city its located in, address, and google rating.
+The simple rolling dice game/number guessing game. Aimed at asking the user to guess a number between a certain range of numbers, while limiting the number of guesses the user can attempt
+
