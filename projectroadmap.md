@@ -9,4 +9,7 @@
 3. Find related repositiories and clone them to team
 4. Get code running
 5. Insert comments for the code
-6. Alter how the start of the game begins, with a welcome and option for person to enter their name
+6. Add introduction that asks for user to type their name, and program returns and says "hello name..."
+7. Add feature that tells user their input was invalid and to please type a number
+8. Add gif images to where the running code translates to numbers actually popping up
+
