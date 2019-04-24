@@ -7,4 +7,6 @@
   
     https://github.com/grantjenks/free-python-games/blob/master/freegames/guess.py
 3. Find related repositiories and clone them to team
-4. 
+4. Get code running
+5. Insert comments for the code
+6. Alter how the start of the game begins, with a welcome and option for person to enter their name
