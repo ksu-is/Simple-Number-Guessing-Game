@@ -8,7 +8,7 @@
     https://github.com/grantjenks/free-python-games/blob/master/freegames/guess.py
 3. Find related repositiories and clone them to team - DONE
 4. Get code running - DONE
-5. Insert comments for the code
+5. Insert comments for the code - DONE
 6. Add introduction that asks for user to type their name, and program returns and says "hello name..."
 7. Add feature that tells user their input was invalid and to please type a number
 8. Add gif images to where the running code translates to numbers actually popping up
