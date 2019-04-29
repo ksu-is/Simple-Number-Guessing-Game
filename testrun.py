@@ -2,16 +2,16 @@
 from tkinter import *
 import random
 class Application(Frame):
-    ''' GUI guess the number application  '''
+    
     def __init__(self, master):
-        '''initialise frame'''
+       
         super(Application, self).__init__(master)
         self.grid()
         self.create_widgets()
         self.pick_rnumber()
         self.number_of_tries()
     def create_widgets(self):
-        '''create widgets for GUI guess game'''
+       
         #Create title label
         Label(self, text = 'Harrisons Number Guessing Game'
               ).grid(row = 0, column = 1, columnspan = 2, sticky = N)
@@ -47,15 +47,15 @@ class Application(Frame):
         gnum = int(gnum)
         if gnum == self.rand_number:
             gnum = str(gnum)
-            self.result = gnum + "  is the magic number!! let the trumpets sound\n"
+            self.result = gnum + "  is the correct number!! Congrats"
             self.tries += 1
         elif gnum < self.rand_number:
             gnum = str(gnum)
-            self.result = gnum + " is too low, Guess higher.\n"
+            self.result = gnum + " HINT: too low, try guessing higher.\n"
             self.tries += 1
         elif gnum > self.rand_number:
             gnum = str(gnum)
-            self.result = gnum + " is too high, Guess lower.\n"
+            self.result = gnum + " HINT: too high, trying guessing lower.\n"
             self.tries += 1
         self.give_result()
         print(self.tries) # test
