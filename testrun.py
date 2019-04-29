@@ -16,7 +16,7 @@ class Application(Frame):
         Label(self, text = 'Harrisons Number Guessing Game'
               ).grid(row = 0, column = 1, columnspan = 2, sticky = N)
         # create instruction labels
-        Label(self, text = 'Try and guess a number between 1-1000'
+        Label(self, text = 'Try and guess a number between 1-100'
               ).grid(row = 1, column = 0, columnspan = 3, sticky = W)
         Label(self, text = 'Try to guess in as few attempts as possible'
               ).grid(row = 2, column = 0, columnspan = 3, sticky = W)
