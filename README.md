@@ -1,3 +1,9 @@
-The simple rolling dice game/number guessing game. Aimed at asking the user to guess a number between a certain range of numbers, while limiting the number of guesses the user can attempt
+Project name: Guess the number
 
-This game is quite interesting
+Description: This game is meant to give players the ability to guess the number. Each time they guess the wrong number it will prompt them to try again. It will show the number of tries incrementally.
+
+Installation: To run this code, you must have a python interpreter. Install the latest version of Python. You can execute the code from any IDE. For e.g. Visual Studio or Mu app.
+
+Usage: You can execute the code from any IDE. For e.g. Visual Studio or Mu app.
+
+License: There is no license to run this program.
