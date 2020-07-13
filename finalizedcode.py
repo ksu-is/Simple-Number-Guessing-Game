@@ -25,10 +25,14 @@ class Application(Frame):
         #Create timer label
         Label(self, text= "Start Time = {}".format(self.starttime)).grid(row = 0,column = 0, sticky = W)
         #Create title label
-        Label(self, text = 'Harrisons Number Guess Game'
+        #Customize the label for Anjali
+        #Label(self, text = 'Harrisons Number Guess Game'
+        Label(self, text = 'Anjalis Number Guess Game'
               ).grid(row = 0, column = 2, columnspan = 1, sticky = N)
         # create instruction labels
-        Label(self, text = 'Try and guess a number between 1-100'
+        #Decrease the Random Number Range from 1-100 to 1-50
+        #Label(self, text = 'Try and guess a number between 1-100'
+        Label(self, text = 'Try and guess a number between 1-50'
               ).grid(row = 1, column = 0, columnspan = 3, sticky = W)
         Label(self, text = 'Try to guess in as few attempts as possible'
               ).grid(row = 2, column = 0, columnspan = 3, sticky = W)
@@ -51,7 +55,10 @@ class Application(Frame):
         self.result_txt = Text(self, width = 80, height = 15, wrap = WORD)
         self.result_txt.grid(row = 6, column = 0, columnspan = 4)
     def pick_rnumber(self):
-        self.rand_number = random.randint(1, 100)
+        #Decrease the Random Number Range from 1-100 to 1-50
+        #self.rand_number = random.randint(1, 100)
+        self.rand_number = random.randint(1, 50)
+        #This print statement facilitates testing so that we can test for the correct guess
         print(self.rand_number) # test
     def check_if_correct(self):
         self.result = ""
