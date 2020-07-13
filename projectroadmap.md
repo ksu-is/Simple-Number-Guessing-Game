@@ -1,6 +1,6 @@
 1. Create ReadMe in repository, and describe the objective of the "Simple-Number-Guessing-Game" - **DONE**
 2. Creat projectroadmap.md with listed objectives for the project - **DONE**
-3. Find related repositiories and clone them to team - **DONE**
+3. Find related repositories and clone them to team - **DONE**
 4. Review the initial code - **DONE**
 5. Test the initial code to see if it works - **DONE**
 4. Review final code and decrease the random number range from *1-50* and not *1-100* - **DONE**
